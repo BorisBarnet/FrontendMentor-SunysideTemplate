@@ -1,0 +1,674 @@
+.images-desktop {
+    width: 100%;
+    height: 100%;
+    display:  block;
+}
+
+@keyframes animation {
+    from {
+      left: -50vw;
+      right: 50vw;
+    }
+    to {
+      left: 0vw;
+      right: 0vw;
+    }
+  }
+
+.image-header {
+    width: 100%;
+    height: auto;
+    display:  block;
+}
+
+.div-hided {
+    display: none;
+}
+
+.navigation {
+    position: absolute;
+}
+
+.navigation-container-desktop {
+    position: absolute;
+    margin-left: 63vw;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 3vw;    
+}
+
+.navigation-logo {
+    position: absolute;
+    margin-top: 3vw;
+    margin-left: 3vw;
+}
+
+.nav-contact {
+    background-color: white;
+    font-family: "Fraunces";
+    font-weight: 700;
+    color: black;
+    letter-spacing: 0.03em;
+    font-size: 1.5vw;
+    margin-left: 2vw;
+    border-radius: 20vw;
+    border: 0;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    margin-top: -1vw;
+    text-decoration: none;
+    
+}
+
+.nav-contact:hover {
+    background-color: rgba(255,255,255, 0.3);
+    color: white; 
+}
+
+.navigation-links {
+    font-family: "Barlow";
+    font-weight: 500;
+    color: white;
+    letter-spacing: 0.03em;
+    font-size: 1.5vw;
+    margin-left: 2vw;
+}
+
+header {
+    position: relative; 
+}
+
+.main-title {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    font-family: "Fraunces";
+    font-weight: 1000;
+    color: white;
+    letter-spacing: 0.2em;
+    text-align: left;
+    font-size: 3.3vw;
+}
+
+.icon-arrow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.icon-arrow-responsive {
+    width: 3vw;
+    height: auto;
+}
+
+.logo-responsive-header {
+    width: 10vw;
+    height: auto;
+}
+
+.logo-responsive-footer {
+    width: 10vw;
+    height: auto;
+}
+
+
+
+.icon-footer-container {
+    padding: 1vw;
+}
+
+
+.icon-footer {
+    width: 2vw;
+    height: auto;
+    fill: hsl(167, 40%, 24%);
+}
+
+.icon-footer:hover {
+    fill: white;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: hsl(167, 40%, 24%);
+}
+
+.footer-link:hover {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+.titres {
+    font-family: "Fraunces";
+    font-weight: 900;
+    text-shadow: 0px 1px, 1px 0px, 1px 0px;
+    color: hsl(212, 27%, 19%);
+    letter-spacing: 0.03em;
+    text-align: left;
+    font-size: 3vw;
+}
+
+.textes {
+    font-family: "Barlow";
+    font-weight: 600;
+    color: hsl(232, 10%, 55%);
+    letter-spacing: 0.03em;
+    text-align: left;
+    font-size: 1.1vw;
+    line-height: 2vw;
+}
+
+.link-learn-more-red {
+    font-family: "Fraunces";
+    font-weight: 900;
+    letter-spacing: 0.1vw;
+    text-align: left;
+    font-size: 1vw;
+    color: hsl(212, 27%, 19%);
+    text-decoration-line: underline;
+    text-decoration-color: hsl(7, 99%, 70%);
+    text-decoration-thickness: 0.5vw;
+}
+
+
+.link-learn-more-yellow {
+    font-family: "Fraunces";
+    font-weight: 900;
+    letter-spacing: 0.1vw;
+    text-align: left;
+    font-size: 1vw;
+    color: hsl(212, 27%, 19%);
+    text-decoration-line: underline;
+    text-decoration-color: hsl(51, 100%, 49%);
+    text-decoration-thickness: 0.5vw;
+
+}
+
+
+.titres-on-grid {
+    font-family: "Fraunces";
+    font-weight: 900;
+    color: hsl(167, 40%, 24%);
+    letter-spacing: 0.03em;
+    text-align: center;
+    font-size: 2vw;
+    text-shadow: 0px 1px, 1px 0px, 1px 0px;
+}
+
+.textes-on-grid {
+    font-family: "Barlow";
+    font-weight: 600;
+    color: hsl(167, 40%, 24%);
+    letter-spacing: 0.03em;
+    text-align: center;
+    font-size: 1vw;
+    line-height: 2vw;
+}
+
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+} 
+
+footer {
+    background-color: hsl(168, 34%, 61%);
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+}
+
+.logo {
+    color: hsl(167, 40%, 24%);
+    margin-bottom: 2vw;
+}
+
+
+
+.services {
+    font-family: "Barlow";
+    font-weight: 600;
+    color: hsl(167, 40%, 24%);
+    letter-spacing: 0.03em;
+    text-align: center;
+    font-size: 1.5vw;
+    margin-bottom: 6vw;
+    display: flex;
+    justify-content: space-evenly;
+    margin-inline: 35vw;
+}
+
+
+.div-reviews {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 6vw;
+    margin-bottom: 6vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+}
+
+.testimonials {
+    margin-bottom: 6vw;
+    font-family: "Fraunces";
+    font-weight: 900;
+    color:hsl(210, 4%, 67%);
+    letter-spacing: 0.4em;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.reviews {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.review-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.review-image {
+    width: 72px;
+    border-radius: 50%;
+    margin-bottom: 3vw;
+}
+
+
+.review-text {
+    font-family: "Barlow";
+    font-weight: 600;
+    color: hsl(213, 9%, 39%);
+    letter-spacing: 0.03em;
+    text-align: center;
+    font-size: 1vw;
+    margin-bottom: 2vw;
+    line-height: 2vw;
+}
+
+.review-name {
+    font-family: "Fraunces";
+    font-weight: 600;
+    color: hsl(213, 9%, 39%);
+    letter-spacing: 0.03em;
+    text-align: center;
+    font-size: 1vw;
+    margin-bottom: 1vw;
+}
+
+.review-profession {
+    font-family: "Barlow";
+    font-weight: 600;
+    color: hsl(210, 4%, 67%);
+    letter-spacing: 0.03em;
+    text-align: center;
+    font-size: 1vw;
+}
+
+@media only screen and (min-width: 768px) {
+
+
+    .navigation-mobile-container {
+        display: none;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        }
+
+
+    
+    .div1 {
+        grid-area: 1 / 1 / 2 / 2; 
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: left;
+        margin-inline: 20%;
+
+    }
+    .div2 { grid-area: 1 / 2 / 2 / 3; }
+    .div3 { grid-area: 2 / 1 / 3 / 2; }
+    .div4 { grid-area: 2 / 2 / 3 / 3; 
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: left;
+        margin-inline: 20%;}
+
+    .div5 { 
+        grid-area: 3 / 1 / 4 / 2; 
+        position: relative; 
+        display: inline-block;
+    }
+    .div6 { 
+        grid-area: 3 / 2 / 4 / 3; 
+        position: relative; 
+        display: inline-block;
+    }
+
+
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        }
+        
+        .gallery1 { grid-area: 1 / 1 / 2 / 2; }
+        .gallery2 { grid-area: 1 / 2 / 2 / 3; }
+        .gallery3 { grid-area: 1 / 3 / 2 / 4; }
+        .gallery4 { grid-area: 1 / 4 / 2 / 5; }
+
+    .texts-on-grid {
+        position: absolute;
+        top: 75%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .image-header-mobile {
+        display: none;
+    }
+
+    .images-mobile {
+        display: none;
+    }
+
+    .menu-on-mobile {
+        display: none;
+    }
+        
+}
+
+@media only screen and (max-width: 768px) {
+
+    .grid {
+        display: flex;
+        flex-direction: column;
+        }
+
+    .div1 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: left;
+        margin-inline: 10%;
+        padding-top: 5vw;
+        padding-bottom: 15vw;
+    }
+    .div2 {  }
+    .div3 {}
+    .div4 { 
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: left;
+        margin-inline: 10%;
+        padding-top: 5vw;
+        padding-bottom: 15vw;
+    }
+
+    .div5 { 
+        position: relative; 
+        display: inline-block;
+    }
+    .div6 { 
+        position: relative; 
+        display: inline-block;
+    }
+
+
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        }
+        
+        .gallery1 { grid-area: 1 / 1 / 2 / 2; }
+        .gallery2 { grid-area: 1 / 2 / 2 / 3; }
+        .gallery3 { grid-area: 2 / 1 / 3 / 2; }
+        .gallery4 { grid-area: 2 / 2 / 3 / 3; }
+    
+    .reviews {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .titres {
+        font-size: 8vw;
+        text-align: center;
+    }
+
+    .textes {
+        font-size: 4vw;
+        text-align: center;
+        line-height: 7.5vw;
+    }
+
+    .link-learn-more-red {
+        font-size: 4vw;
+        text-align: center;
+        text-decoration-thickness: 1vw;
+        padding-top: 7vw;
+    }
+
+    .link-learn-more-yellow {
+        font-size: 4vw;
+        text-align: center;
+        text-decoration-thickness: 1vw;
+        padding-top: 7vw;
+    }
+
+    .titres-on-grid {
+
+        font-size: 8vw;
+        margin-left: -10%;
+        margin-right: -10%;
+    }
+    
+    .textes-on-grid {
+
+        font-size: 3.3vw;
+        line-height: 6vw;
+    }
+
+    .testimonials {
+        font-size: 3vw;
+    }
+
+    .review-text {
+        font-size: 3vw;
+        line-height: 5vw;
+    }
+
+    .review-name {
+        font-size: 3vw;
+    }
+
+    .review-profession {
+        font-size: 3vw;
+        padding-bottom: 10vw;
+    }
+
+    .texts-on-grid {
+        position: absolute;
+        top: 75%;
+        left: 50%;
+        right: -25%;
+        transform: translate(-50%, -50%);
+      }
+
+    .services {
+        font-size: 5vw;
+    }
+
+    .main-title {
+        font-size: 7vw;
+        text-align: center;
+        top: 35%;
+    }
+
+    .icon-arrow {
+        position: absolute;
+        top: 65%;
+        left: 50%;
+        text-align: center;
+        transform: translate(-50%, -50%);
+    }
+
+    
+
+
+    .logo-responsive-footer {
+        width: 40vw;
+    }
+
+    .icon-footer {
+        width: 5vw;
+    }
+
+    .icon-footer-container {
+        padding: 3vw;
+    }
+
+    .footer-link {
+        padding: 8vw;
+    }
+
+    .footer {
+        padding-top: 10vw;
+        padding-bottom: 15vw;
+    }
+
+    
+
+    .navigation-container-desktop {
+        display: none;
+    }
+
+    .logo-responsive-header {
+        width: 30vw;
+    }
+
+
+    .navigation-logo {
+        position: absolute;
+        margin-top: 3vw;
+        margin-left: 3vw;
+    }
+
+
+    .navigation-mobile-container {
+        position: absolute;
+        margin-top: 4vw;
+        margin-left: 85vw;    
+    }
+
+    .image-header {
+        display: none;
+    }
+
+    .image-header-mobile {
+        width: 100%;
+        height: auto;
+        display:  block;
+    }
+
+    .icon-arrow-responsive {
+        width: 8vw;
+        height: auto;
+    }
+
+    .images-desktop {
+        display: none;
+    }
+
+    .images-mobile {
+        width: 100%;
+        height: 100%;
+        display:  block;
+    }
+
+    .menu-on-mobile {
+        position: absolute;
+        background-color: white;
+        margin-left: 5.5vw;
+        margin-top: 15vw;
+        font-family: "Barlow";
+        color: hsl(232, 10%, 55%);
+        font-size: 6vw;
+        padding-left: 23vw;
+        padding-right: 63vw;
+        text-align: center;
+    }
+
+    .triangle {
+        position: absolute;
+        margin-left: 66.25%;
+        margin-top: -5vw;
+        width: 0;
+        height: 0;
+        border-bottom: 1em solid white;
+        border-left: 1em solid transparent;
+    }
+
+    .nav-contact-mobile {
+        background-color: yellow;
+        font-family: "Fraunces";
+        font-weight: 700;
+        color: black;
+        letter-spacing: 0.03em;
+        font-size: 5vw;
+        margin-left: 2vw;
+        border-radius: 20vw;
+        border: 0;
+        padding-left: 7vw;
+        padding-right: 7vw;
+        padding-top: 4vw;
+        padding-bottom: 4vw;
+        margin-left: -8vw;
+        text-decoration: none;
+        
+    }
+    
+    
+}
+
+
+}
