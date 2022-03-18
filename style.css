@@ -49,7 +49,7 @@
     font-weight: 700;
     color: black;
     letter-spacing: 0.03em;
-    font-size: 1.3vw;
+    font-size: 1vw;
     margin-left: 2vw;
     border-radius: 20vw;
     border: 0;
@@ -57,7 +57,7 @@
     padding-right: 2vw;
     padding-top: 1vw;
     padding-bottom: 1vw;
-    margin-top: -1vw;
+    margin-top: -0.6vw;
     text-decoration: none;
     
 }
